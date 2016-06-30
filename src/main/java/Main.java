@@ -1,6 +1,8 @@
 package com.poec;
 
-public class Main extends Etudiant{
+public class Main {
+
+
     public static void main(String[] args) {
         Etudiant Etudiant1 = new Etudiant("Tourman", "Benjamin", "2 rue Fénélon");
         System.out.println("Etudiant n°1 :");

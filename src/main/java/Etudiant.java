@@ -1,6 +1,6 @@
 package com.poec;
 
-public class Etudiant  {
+public class Etudiant extends Main {
 
     private String nom;
 
@@ -14,8 +14,7 @@ public class Etudiant  {
         this.nom = nom;
         this.prenom = prenom;
         this.adresse = adresse;
-        this.age = age;
-    }
+        this.age = age; }
 
     public String getNom() {
         return nom;
